@@ -9,35 +9,35 @@ The output includes the url and its associated categories on an array. There is 
 ## requirements
 It just requires the request library so installing it using pip. 
 
-'''
+```
 # pip install -r requirements.txt
-'''
+```
 
 ## usage
 To run the script, first configure the settings inside categorize.py: 
 
-'''
+```
 tenantName = "tenant.goskope.com" # this should be full tenant name like mytenant.goskope.com
 apiv1Token = "xxxxx" # this should be your api v1 key from tenant settings.
 file_name = 'list-of-websites.csv' # this is the file containing the urls. no headers and one url per line.
 include_customURLL = False #set this to 'True' if you want custom URLs that match on the tenant to be included in the results on a separate column
-'''
+```
 
 Afer configuring it, just run the script
 
-'''
+```
 # python3 categorize.py
-'''
+```
 
 And if you want to output the results to a file: 
 
-'''
+```
 # python3 categorize.py > results.txt
-'''
+```
 
 The results look like this: 
 
-'''
+```
 # python3 categorize_threaded.py
 
 0.docs.google.com,['Cloud Storage'],['custom_regex']
@@ -45,6 +45,6 @@ The results look like this:
 0000adc4642c66b0aa1fdfe7dd9e7e68.safeframe.usercontent.goog,['Search Engines'],[]
 00056df632ab861d370ee0a9ddb39fce.safeframe.usercontent.goog,['Search Engines'],[]
 000731975aec7a42d0b0bfda70faab14.safeframe.usercontent.goog,['Search Engines'],[]
-'''
+```
 
 
