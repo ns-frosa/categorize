@@ -38,7 +38,7 @@ And if you want to output the results to a file:
 The results look like this: 
 
 ```
-# python3 categorize_threaded.py
+# python3 categorize.py
 
 0.docs.google.com,['Cloud Storage'],['custom_regex']
 00002e388f7d8e3d4a8a9917c3d98355.safeframe.usercontent.goog,['Search Engines'],[]
