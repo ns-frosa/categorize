@@ -16,10 +16,10 @@ import json
 
 ##### Configuration starts here
 
-tenantName = "fabio.goskope.com"
-apiv1Token = "d05d1d7ea69e496b2d47a392d6576a43"
-file_name = 'list-of-websites.csv'
-include_customURLL = False #turn this on if you want custom URLs that match in the tenant to be included in the results on a separate column
+tenantName = "tenant.goskope.com" # this should be full tenant name like mytenant.goskope.com
+apiv1Token = "xxxxx" # this should be your api v1 key from tenant settings.
+file_name = 'list-of-websites.csv' # this is the file containing the urls. no headers and one url per line.
+include_customURLL = False #turn this on if you want custom URLs that match on the tenant to be included in the results on a separate column
 
 #### Configuratoin ends here - no tweaking below this point 
 
