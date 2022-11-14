@@ -33,6 +33,10 @@ And if you want to output the results to a file:
 
 ```
 # python3 categorize.py > results.txt
+
+If you want to output to stdout and file use command "tee" instead, like 
+
+# python3 categorize.py | tee results.txt 
 ```
 
 The results look like this: 
